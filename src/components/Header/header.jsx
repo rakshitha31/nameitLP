@@ -7,7 +7,7 @@ const Header = ( {headTitle, headerExpanded }) => {
             className= { `head-image ${headerExpanded ? 'head-image-expanded' : 'head-image-contracted'}`} 
             alt ="header">
             </img>
-            <h1 className =  { `head-text ${headerExpanded ? 'head-text-expanded' : 'head--contracted'}`} >{headTitle}</h1>
+            <h1 className =  { `head-text ${headerExpanded ? 'head-text-expanded' : 'head-text-contracted'}`} >{headTitle}</h1>
             
         </div>
     )
